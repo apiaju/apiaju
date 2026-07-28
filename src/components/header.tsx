@@ -1,6 +1,6 @@
-import { Github, ShapesIcon } from "lucide-react";
-import { Button } from "./ui/button";
+import { Github, PackageIcon, ShapesIcon } from "lucide-react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 export function Header() {
   return (
@@ -17,6 +17,13 @@ export function Header() {
               <Link href="/playground" rel="noopener noreferrer">
                 <ShapesIcon className="h-4 w-4 mr-2" />
                 Playground
+              </Link>
+            </Button>
+
+            <Button asChild variant="ghost" size="sm">
+              <Link href="/packages" rel="noopener noreferrer">
+                <PackageIcon className="h-4 w-4 mr-2" />
+                Pacotes
               </Link>
             </Button>
 
