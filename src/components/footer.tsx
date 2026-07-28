@@ -36,6 +36,7 @@ export function Footer() {
                   href="https://stats.uptimerobot.com/haO8gHOOcS/"
                   className="hover:underline"
                   target="_blank"
+                  rel="noopener"
                 >
                   Status dos serviços
                 </a>
@@ -43,6 +44,11 @@ export function Footer() {
               <li>
                 <Link href="/playground" className="hover:underline">
                   Playground
+                </Link>
+              </li>
+              <li>
+                <Link href="/packages" className="hover:underline">
+                  Pacotes
                 </Link>
               </li>
             </ul>
@@ -64,6 +70,7 @@ export function Footer() {
               href="https://www.wolney.dev"
               target="_blank"
               className="text-primary underline"
+              rel="noopener"
             >
               Wolney Oliveira
             </a>
